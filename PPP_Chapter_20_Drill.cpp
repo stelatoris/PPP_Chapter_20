@@ -68,6 +68,7 @@ void my_find(Iter f, Iter e, int val)
         std::cout<<"The value "<<*p<<" was found in location: ";
         std::cout<<p-f<<'\n';
     }
+    else std::cout<<"The value "<<val<<" was not found!\n";
 }
 
 int main()
@@ -123,7 +124,7 @@ try {
     print_vector(arr2.begin(), arr2.end(), "arr2 copy from l2");
 
     //Drill 8
-    my_find(v2.begin(), v2.end(), 6);
+    my_find(v2.begin(), v2.end(), 25);
     
 
 }
