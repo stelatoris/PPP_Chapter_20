@@ -10,11 +10,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri Apr 15 20:47:15 2022
+# Make data base, printed on Sat Apr 16 22:03:24 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -28,6 +27,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
+ 
 CURDIR := /Users/hasan/Documents/Apps/PPP_Chapter_20
 # makefile
 SHELL = /bin/sh
@@ -42,13 +42,13 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/70/71vmb4jx3_53pzjyr8xpc3wc0000gn/T/vscode-ipc-1cc5f4c9-28c2-4792-bdcc-fe1e0bdb419a.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/70/71vmb4jx3_53pzjyr8xpc3wc0000gn/T/vscode-ipc-4a2d0867-7c4e-4947-8743-69666d3320ed.sock
 # environment
 VSCODE_CWD = /
 # environment
 PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
 # environment
-LaunchInstanceID = A46FC15F-E723-4F7D-8208-65CCABB80A5C
+LaunchInstanceID = 435AA923-A352-4693-9E9A-AD67B215C161
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -56,7 +56,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.tef7d9tHZL/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.uvbed7SWKz/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -98,7 +98,6 @@ USER = hasan
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
- 
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # default
 .VARIABLES := 
@@ -131,7 +130,7 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-SECURITYSESSIONID = 186a4
+SECURITYSESSIONID = 186a5
 # automatic
 ^F = $(notdir $^)
 # default
@@ -143,7 +142,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 353
+VSCODE_PID = 397
 # variable set hash-table stats:
 # Load=64/1024=6%, Rehash=0, Collisions=1/85=1%
 
@@ -153,9 +152,9 @@ VSCODE_PID = 353
 
 # Directories
 
-# . (device 16777231, inode 4249126): 8 files, no impossibilities.
+# . (device 16777234, inode 4249126): 16 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -227,6 +226,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri Apr 15 20:47:15 2022
+# Finished Make data base on Sat Apr 16 22:03:24 2022
 
  
