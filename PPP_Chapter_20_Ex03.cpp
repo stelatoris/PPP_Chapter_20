@@ -98,7 +98,7 @@ try {
     jill_data=get_from_jill();
 
     double* jill_high = high_vector(*jill_data);
-    std::vector<double> v_jill = *jill_data;
+    std::vector<double>& v_jill = *jill_data;
     std::cout<<"Jill's max using high_vector(): "<<*jill_high<<'\n';
 
     jill_high = high_pointer(&v_jill[0], &v_jill[v_jill.size()]);
